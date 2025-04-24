@@ -237,57 +237,57 @@ int main(){
     //validações para verificar qual carta teve o maior atributo:
 
     if (populacao_1 > populacao_2){
-        printf("\nA cidade mais populosa foi: %s", nome_cidade_1);
+        printf("\nA cidade mais populosa foi: %s com %u habitantes! Carta 1 venceu!", nome_cidade_1, populacao_1);
     } else if(populacao_1 < populacao_2){
-        printf("\nA cidade mais populosa foi: %s", nome_cidade_2);
+        printf("\nA cidade mais populosa foi: %s com %u habitantes! Carta 2 venceu!", nome_cidade_2, populacao_2);
     } else {
         printf("\nAs cidades %s e %s empataram na quantidade de habitantes!", nome_cidade_1, nome_cidade_2);
     }
     
     if (area_cidade_1 > area_cidade_2){
-        printf("\nA cidade com uma maior área em m² foi: %s", nome_cidade_1);
+        printf("\nA cidade com uma maior área em m² foi: %s! Carta 1 venceu!", nome_cidade_1);
     } else if(area_cidade_1 < area_cidade_2){
-        printf("\nA cidade com uma maior área em m² foi: %s", nome_cidade_2);
+        printf("\nA cidade com uma maior área em m² foi: %s! Carta 2 venceu!", nome_cidade_2);
     } else {
         printf("\nAs cidades %s e %s empataram na quantidade de m²!", nome_cidade_1, nome_cidade_2);
     }
 
     if (pib_cidade_1 > pib_cidade_2){
-        printf("\nA cidade com o maior PIB foi %s!", nome_cidade_1);
+        printf("\nA cidade com o maior PIB foi %s! Carta 1 venceu!", nome_cidade_1);
     } else if(pib_cidade_1 < pib_cidade_2){
-        printf("\nA cidade com o maior PIB foi %s!", nome_cidade_2);
+        printf("\nA cidade com o maior PIB foi %s!  Carta 1 venceu!", nome_cidade_2);
     } else {
-        printf("\nAs cidades %s e %s empataram no valor do PIB anual!!", nome_cidade_1, nome_cidade_2);
+        printf("\nAs cidades %s e %s empataram no valor do PIB anual!", nome_cidade_1, nome_cidade_2);
     }
 
     if (pontos_turisticos_1 > pontos_turisticos_2){
-        printf("\nA cidade com + pontos turísticos foi %s!", nome_cidade_1);
+        printf("\nA cidade com + pontos turísticos foi %s! Carta 1 venceu!", nome_cidade_1);
     } else if(pontos_turisticos_1 < pontos_turisticos_2){
-        printf("\nA cidade com + pontos turísticos foi %s!", nome_cidade_2);
+        printf("\nA cidade com + pontos turísticos foi %s!  Carta 2 venceu!", nome_cidade_2);
     } else {
         printf("\nAs cidades %s e %s empataram na quantidade de pontos turísticos!", nome_cidade_1, nome_cidade_2);
     }
 
     if (densidade_populacional_1 < densidade_populacional_2){
-        printf("\nA cidade vencedora na densidade populacional foi %s!", nome_cidade_1);
+        printf("\nA cidade vencedora na densidade populacional foi %s!  Carta 1 venceu!", nome_cidade_1);
     } else if(densidade_populacional_2 < densidade_populacional_1){
-        printf("\nA cidade vencedora na densidade populacional foi %s!", nome_cidade_2);
+        printf("\nA cidade vencedora na densidade populacional foi %s!  Carta 2 venceu!", nome_cidade_2);
     } else {
         printf("\nAs cidades %s e %s empataram no quesito densidade populacional!", nome_cidade_1, nome_cidade_2);
     }
 
     if (pib_per_capta_1 > pib_per_capta_2){
-        printf("\nA cidade vencedora no PIB per capta foi %s!", nome_cidade_1);
+        printf("\nA cidade vencedora no PIB per capta foi %s!  Carta 1 venceu!", nome_cidade_1);
     } else if(pib_per_capta_1 < pib_per_capta_2){
-        printf("\nA cidade vencedora no PIB per capta foi %s!", nome_cidade_2);
+        printf("\nA cidade vencedora no PIB per capta foi %s!  Carta 2 venceu!", nome_cidade_2);
     } else {
         printf("\nAs cidades %s e %s empataram no quesito PIB Per Capta!", nome_cidade_1, nome_cidade_2);
     }
 
     if (super_poder_1 > super_poder_2){
-        printf("\nA cidade vencedora no Super Poder foi %s!", nome_cidade_1);
+        printf("\nA cidade vencedora no Super Poder foi %s! Carta 1 venceu!", nome_cidade_1);
     } else if(super_poder_1 < super_poder_2){
-        printf("\nA cidade vencedora no Super Poder foi %s!", nome_cidade_2);
+        printf("\nA cidade vencedora no Super Poder foi %s! Carta 2 venceu!", nome_cidade_2);
     } else {
         printf("\nAs cidades %s e %s empataram no quesito Super Poder!", nome_cidade_1, nome_cidade_2);
     }
